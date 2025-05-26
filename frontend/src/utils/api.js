@@ -2,7 +2,7 @@ import axios from "axios"
 
 // Create axios instance with base URL
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://task-management-t0hf.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },

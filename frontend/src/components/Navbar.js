@@ -1,4 +1,4 @@
-"use client"
+
 import { Link, useLocation } from "react-router-dom"
 import { useAuth } from "../contexts/AuthContext"
 import { LogOut, Plus, Home, CheckSquare, User } from "lucide-react"

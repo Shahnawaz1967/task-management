@@ -1,4 +1,4 @@
-"use client"
+
 import { Link } from "react-router-dom"
 import { Edit, Trash2, Calendar, Flag, CheckCircle, Circle, Clock, AlertTriangle } from "lucide-react"
 import { format, isToday, isTomorrow, isPast } from "date-fns"
