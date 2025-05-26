@@ -1,8 +1,9 @@
 import axios from "axios"
 
 // Create axios instance with base URL
+ 
 const api = axios.create({
-  baseURL: "https://task-management-t0hf.onrender.com",
+  baseURL: process.env.REACT_APP_API_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
