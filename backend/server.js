@@ -38,9 +38,9 @@ mongoose
 const errorHandler = require("./middleware/errorHandler")
 
 // Add 404 handler before error handler:
-app.use("*", (req, res) => {
-  res.status(404).json({ message: "Route not found" })
-})
+app.use("/api/*", (req, res) => {
+  res.status(404).json({ message: "API route not found" });
+});
 
 // Error handling middleware (should be last)
 app.use(errorHandler)
