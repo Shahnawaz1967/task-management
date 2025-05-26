@@ -38,9 +38,9 @@ mongoose
 const errorHandler = require("./middleware/errorHandler")
 
 // Add 404 handler before error handler:
-app.use("*", (req, res) => {
-  res.status(404).json({ message: "Route not found" })
-})
+app.get("/", (req, res) => {
+  res.send("Welcome to the EMRN backend!");
+});
 
 // Error handling middleware (should be last)
 app.use(errorHandler)
