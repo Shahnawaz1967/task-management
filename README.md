@@ -32,31 +32,6 @@ Task management application built with MongoDB, Express.js, React.js, and Node.j
 - MVC architecture
 - Environment variables for configuration
 
-## Project Structure
-
-\`\`\`
-├── frontend/                 # React.js frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/       # Reusable components
-│   │   ├── contexts/         # React Context for state management
-│   │   ├── pages/           # Page components
-│   │   ├── App.js           # Main app component
-│   │   └── index.js         # Entry point
-│   ├── package.json
-│   └── tailwind.config.js
-│
-├── backend/                  # Node.js/Express backend
-│   ├── controllers/         # Route controllers
-│   ├── middleware/          # Custom middleware
-│   ├── models/             # Mongoose models
-│   ├── routes/             # API routes
-│   ├── server.js           # Server entry point
-│   ├── package.json
-│   └── .env                # Environment variables
-│
-└── README.md
-\`\`\`
 
 ## Installation & Setup
 
